@@ -104,10 +104,9 @@ g.everforest_better_performance = 1
 g.everforest_transparent_background = 1
 
 -- vim.cmd("colorscheme everforest")
--- g.gruvbox_transparent_bg = 1
 
 require('rose-pine').setup({
-    disable_background = true,
+    disable_background = false,
     variant = "moon", -- auto, main, moon, or dawn
     dark_variant = "main", -- main, moon, or dawn
     dim_inactive_windows = true,
